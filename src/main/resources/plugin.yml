@@ -1,0 +1,9 @@
+name: NoSpectatorTeleports
+version: ${project.version}
+main: gg.tgb.nospectatorteleports.NoSpectatorTeleports
+api-version: 1.8
+prefix: NoSpectatorTeleports
+load: STARTUP
+authors: [ tgb ]
+description: Disabled Spectators from Teleporting
+website: https://tgb.gg
