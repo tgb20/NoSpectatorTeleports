@@ -1,2 +1,2 @@
 # NoSpectatorTeleports
- Disabled Spectator Teleportation (MC 1.8.8)
+ Disables Spectator Teleportation (MC 1.8.8)
