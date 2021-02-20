@@ -8,6 +8,6 @@ authors: [ tgb ]
 description: Disabled Spectators from Teleporting
 website: https://tgb.gg
 permissions:
-  bypassteleportlock:
+  bypassteleport:
     description: Allows a player to teleport while in spectator
     default: op

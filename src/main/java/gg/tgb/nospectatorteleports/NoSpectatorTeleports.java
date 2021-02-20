@@ -26,7 +26,7 @@ public final class NoSpectatorTeleports extends JavaPlugin implements Listener {
     @EventHandler
     public void onPlayerTeleport(PlayerTeleportEvent event) {
         Player p = event.getPlayer();
-        if(p.getGameMode() == GameMode.SPECTATOR && !p.hasPermission("bypassteleportlock")) {
+        if(p.getGameMode() == GameMode.SPECTATOR && !p.hasPermission("bypassteleport")) {
             event.setCancelled(true);
             getLogger().info("Cancelled Teleport for " + p.getDisplayName());
             p.sendMessage("Teleporting is disabled for spectators");
