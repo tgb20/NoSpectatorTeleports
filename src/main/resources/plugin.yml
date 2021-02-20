@@ -7,3 +7,7 @@ load: STARTUP
 authors: [ tgb ]
 description: Disabled Spectators from Teleporting
 website: https://tgb.gg
+permissions:
+  bypassteleportlock:
+    description: Allows a player to teleport while in spectator
+    default: op
